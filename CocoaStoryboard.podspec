@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
           #8.
           s.source              = { :git => "https://github.com/jeyarajG/CocoaStoryboard.git" }
           #9.
-          s.source_files     = "CocoaStoryboard/**/*.{h,m,swift}"
+          s.source_files     = "CocoaStoryboard/**/*.{swift}"
     end
