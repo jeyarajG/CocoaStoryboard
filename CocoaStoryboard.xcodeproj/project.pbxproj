@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EF7E7E1FF17930009DAFAA /* CocoaStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF7E741FF1792F009DAFAA /* CocoaStoryboard.framework */; };
+		18EF7E831FF17930009DAFAA /* CocoaStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF7E821FF17930009DAFAA /* CocoaStoryboardTests.swift */; };
+		18EF7E851FF17930009DAFAA /* CocoaStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EF7E771FF1792F009DAFAA /* CocoaStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18EF7E8F1FF17944009DAFAA /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EF7E8E1FF17944009DAFAA /* Storyboard.storyboard */; };
+		18EF7E911FF17977009DAFAA /* CustomWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF7E901FF17977009DAFAA /* CustomWebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EF7E7F1FF17930009DAFAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EF7E6B1FF1792F009DAFAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EF7E731FF1792F009DAFAA;
+			remoteInfo = CocoaStoryboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18EF7E741FF1792F009DAFAA /* CocoaStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EF7E771FF1792F009DAFAA /* CocoaStoryboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaStoryboard.h; sourceTree = "<group>"; };
+		18EF7E781FF1792F009DAFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EF7E7D1FF17930009DAFAA /* CocoaStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EF7E821FF17930009DAFAA /* CocoaStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaStoryboardTests.swift; sourceTree = "<group>"; };
+		18EF7E841FF17930009DAFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EF7E8E1FF17944009DAFAA /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		18EF7E901FF17977009DAFAA /* CustomWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EF7E701FF1792F009DAFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EF7E7A1FF17930009DAFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EF7E7E1FF17930009DAFAA /* CocoaStoryboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EF7E6A1FF1792F009DAFAA = {
+			isa = PBXGroup;
+			children = (
+				18EF7E761FF1792F009DAFAA /* CocoaStoryboard */,
+				18EF7E811FF17930009DAFAA /* CocoaStoryboardTests */,
+				18EF7E751FF1792F009DAFAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EF7E751FF1792F009DAFAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EF7E741FF1792F009DAFAA /* CocoaStoryboard.framework */,
+				18EF7E7D1FF17930009DAFAA /* CocoaStoryboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EF7E761FF1792F009DAFAA /* CocoaStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				18EF7E771FF1792F009DAFAA /* CocoaStoryboard.h */,
+				18EF7E781FF1792F009DAFAA /* Info.plist */,
+				18EF7E8E1FF17944009DAFAA /* Storyboard.storyboard */,
+				18EF7E901FF17977009DAFAA /* CustomWebViewController.swift */,
+			);
+			path = CocoaStoryboard;
+			sourceTree = "<group>";
+		};
+		18EF7E811FF17930009DAFAA /* CocoaStoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EF7E821FF17930009DAFAA /* CocoaStoryboardTests.swift */,
+				18EF7E841FF17930009DAFAA /* Info.plist */,
+			);
+			path = CocoaStoryboardTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18EF7E711FF1792F009DAFAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EF7E851FF17930009DAFAA /* CocoaStoryboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18EF7E731FF1792F009DAFAA /* CocoaStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EF7E881FF17930009DAFAA /* Build configuration list for PBXNativeTarget "CocoaStoryboard" */;
+			buildPhases = (
+				18EF7E6F1FF1792F009DAFAA /* Sources */,
+				18EF7E701FF1792F009DAFAA /* Frameworks */,
+				18EF7E711FF1792F009DAFAA /* Headers */,
+				18EF7E721FF1792F009DAFAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaStoryboard;
+			productName = CocoaStoryboard;
+			productReference = 18EF7E741FF1792F009DAFAA /* CocoaStoryboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		18EF7E7C1FF17930009DAFAA /* CocoaStoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EF7E8B1FF17930009DAFAA /* Build configuration list for PBXNativeTarget "CocoaStoryboardTests" */;
+			buildPhases = (
+				18EF7E791FF17930009DAFAA /* Sources */,
+				18EF7E7A1FF17930009DAFAA /* Frameworks */,
+				18EF7E7B1FF17930009DAFAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EF7E801FF17930009DAFAA /* PBXTargetDependency */,
+			);
+			name = CocoaStoryboardTests;
+			productName = CocoaStoryboardTests;
+			productReference = 18EF7E7D1FF17930009DAFAA /* CocoaStoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EF7E6B1FF1792F009DAFAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jeyaraj;
+				TargetAttributes = {
+					18EF7E731FF1792F009DAFAA = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					18EF7E7C1FF17930009DAFAA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18EF7E6E1FF1792F009DAFAA /* Build configuration list for PBXProject "CocoaStoryboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18EF7E6A1FF1792F009DAFAA;
+			productRefGroup = 18EF7E751FF1792F009DAFAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EF7E731FF1792F009DAFAA /* CocoaStoryboard */,
+				18EF7E7C1FF17930009DAFAA /* CocoaStoryboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EF7E721FF1792F009DAFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EF7E8F1FF17944009DAFAA /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EF7E7B1FF17930009DAFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EF7E6F1FF1792F009DAFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EF7E911FF17977009DAFAA /* CustomWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EF7E791FF17930009DAFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EF7E831FF17930009DAFAA /* CocoaStoryboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EF7E801FF17930009DAFAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EF7E731FF1792F009DAFAA /* CocoaStoryboard */;
+			targetProxy = 18EF7E7F1FF17930009DAFAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18EF7E861FF17930009DAFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18EF7E871FF17930009DAFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18EF7E891FF17930009DAFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CocoaStoryboard/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.CocoaStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18EF7E8A1FF17930009DAFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CocoaStoryboard/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.CocoaStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18EF7E8C1FF17930009DAFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CocoaStoryboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.CocoaStoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18EF7E8D1FF17930009DAFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CocoaStoryboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.CocoaStoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EF7E6E1FF1792F009DAFAA /* Build configuration list for PBXProject "CocoaStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EF7E861FF17930009DAFAA /* Debug */,
+				18EF7E871FF17930009DAFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EF7E881FF17930009DAFAA /* Build configuration list for PBXNativeTarget "CocoaStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EF7E891FF17930009DAFAA /* Debug */,
+				18EF7E8A1FF17930009DAFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18EF7E8B1FF17930009DAFAA /* Build configuration list for PBXNativeTarget "CocoaStoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EF7E8C1FF17930009DAFAA /* Debug */,
+				18EF7E8D1FF17930009DAFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EF7E6B1FF1792F009DAFAA /* Project object */;
+}
