@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
           #7.
           s.platform            = :ios, "10.3”
           #8.
-          s.source              = { :git => "https://github.com/jeyarajG/CocoaStoryboard.git", :tag => "1.0.0" }
+          s.source              = { :git => "https://github.com/jeyarajG/CocoaStoryboard.git", :tag => “1.0.1” }
           #9.
           s.source_files     = "CocoaStoryboard", "CocoaStoryboard/**/*.{h,m,swift}"
     end
