@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
           #2.
           s.version            = "1.0.0"
           #3.  
-          s.summary         = “testing for storyboard with cocoapods”
+          s.summary         = “testing for storyboard with CocoaStoryboard.”
           #4.
           s.homepage        = "http://www.google.com"
           #5.
