@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
           #4.
           s.homepage        = "http://www.google.com"
           #5.
-          s.license              = "MIT"
+          s.license              = { :type => "MIT", :file => "LICENSE" }
           #6.
           s.author               = “jeyarajG”
           #7.
