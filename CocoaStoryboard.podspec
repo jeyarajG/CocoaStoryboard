@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
           #1.
           s.name               = "CocoaStoryboard"
           #2.
-          s.version            = "1.4"
+          s.version            = “1.5”
           #3.  
           s.summary         = "testing for storyboard with CocoaStoryboard."
           #4.
@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
           s.source              = { :git => "https://github.com/jeyarajG/CocoaStoryboard.git", :tag => "#{s.version}" }
           #9.
           s.source_files     = "CocoaStoryboard/**/*.{swift}"
+		s.resources = "CocoaStoryboard/**/*.{png,jpeg,jpg,storyboard,xib}"
     end
