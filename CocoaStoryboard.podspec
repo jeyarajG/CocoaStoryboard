@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
           #1.
           s.name               = "CocoaStoryboard"
           #2.
-          s.version            = "1.7"
+          s.version            = "1.8"
           #3.  
           s.summary         = "testing for storyboard with CocoaStoryboard."
           #4.
